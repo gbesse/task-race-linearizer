@@ -1,0 +1,18 @@
+{
+  "operations": [
+    {
+      "id": "cancel",
+      "op": "cancel",
+      "call": 0,
+      "return": 4,
+      "result": "cancelled"
+    },
+    {
+      "id": "complete",
+      "op": "complete",
+      "call": 1,
+      "return": 5,
+      "result": "completed"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-race-linearizer"
+version = "0.1.0a1"
+description = "FR: Vérifier les courses annulation-fin par recherche de linéarisation | EN: Check cancellation-completion races through linearization search | ES: Comprobar carreras cancelación-finalización mediante búsqueda de linealización"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+task-race-linearizer = "task_race_linearizer.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["task_race_linearizer*"]

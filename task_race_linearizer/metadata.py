@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Vérifier les courses annulation-fin par recherche de linéarisation', 'en': 'Check cancellation-completion races through linearization search', 'es': 'Comprobar carreras cancelación-finalización mediante búsqueda de linealización'}
